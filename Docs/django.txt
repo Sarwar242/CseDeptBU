@@ -1,0 +1,35 @@
+
+Virtual ENV:
+pip install virtualenvwrapper-win
+
+mkvirtualenv csedept
+
+pip install django
+
+django-admin --version
+
+django-admin startproject <name>
+
+python manage.py runserver
+
+python manage.py startapp calc
+python manage.py startapp travello
+
+python manage.py collectstatic
+
+
+orm (Object-Relational Mapper)
+
+pip install pillow
+
+python manage.py makemigrations
+
+python manage.py sqlmigrate travello 0001
+python manage.py migrate
+
+ {% csrf_token %}
+ 
+ <a href={% url 'edit' id=item.id %}>Edit</a>
+ 
+ 
+ git test
