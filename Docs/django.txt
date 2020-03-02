@@ -5,7 +5,7 @@ pip install virtualenvwrapper-win
 mkvirtualenv csedept
 
 pip install django
-
+python -m pip install Pillow
 django-admin --version
 
 django-admin startproject <name>
