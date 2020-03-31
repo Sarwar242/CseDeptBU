@@ -20,7 +20,7 @@ python manage.py collectstatic
 
 orm (Object-Relational Mapper)
 
-pip install pillow
+python -m pip install pillow
 
 python manage.py makemigrations
 
