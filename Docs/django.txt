@@ -30,3 +30,4 @@ python manage.py migrate
  {% csrf_token %}
  
  <a href={% url 'edit' id=item.id %}>Edit</a>
+confused
